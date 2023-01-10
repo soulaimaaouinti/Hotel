@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New GroupeHotelier{% endblock %}
+
+{% block body %}
+    <h1>Create new GroupeHotelier</h1>
+
+    {{ include('groupe_hotelier/_form.html.twig') }}
+
+    <a href="{{ path('app_groupe_hotelier_index') }}">back to list</a>
+{% endblock %}
